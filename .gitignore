@@ -49,7 +49,7 @@ bower_components
 build/Release
 
 # Dependency directories
-
+src/
 node_modules/
 jspm_packages/
 
@@ -170,3 +170,4 @@ dist
 
 .dev.vars
 .wrangler/
+

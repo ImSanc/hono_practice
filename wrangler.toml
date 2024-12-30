@@ -17,13 +17,8 @@ enabled = true
 # [placement]
 # mode = "smart"
 
-# Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
-# Docs:
-# - https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
-# Note: Use secrets to store sensitive data.
-# - https://developers.cloudflare.com/workers/configuration/secrets/
-# [vars]
-# MY_VARIABLE = "production_value"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMjQyNmI4MzAtMjZjYy00NGUyLTgyZTQtZWUxNzA3YzNjNzhjIiwidGVuYW50X2lkIjoiMDk0YzA4MGI5NjZjNDA4OWYyODFhZmQzOTNhNmY5MmZiMzI0MGY5OWViZjk2NjgyOTg3NzFiMmZhZDY5NTQ1NyIsImludGVybmFsX3NlY3JldCI6ImUwM2QwYTVmLThiN2YtNDQzNi1hZjIzLWRiZTcxOGRlMWI3MSJ9.e44Md_eB26wTQV_ubP5hl-1QjHSLbpxjywh34bKB8ZU"
+DIRECT_URL="postgresql://neondb_owner:mRlXfIF9nH1z@ep-cold-pine-a1s8chmz.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
